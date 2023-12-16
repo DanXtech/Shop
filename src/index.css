@@ -1,0 +1,41 @@
+@import url('https://fonts.gooleap.com2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* :root{
+
+} */
+body{
+    background: #ffffff;
+    font-family: 'Poppins', serif;
+}
+img{
+    width: 100%;
+}
+
+
+.container{
+    max-width: 1200px;
+    padding: 4rem 5rem;
+}
+
+
+
+@media(max-width: 800px){
+    .container{
+        max-width: 100%;
+        padding: 2rem 2.5rem;
+    }
+    
+
+}
+@media(min-width: 920px){
+    .container{
+        padding: 3rem 4rem;
+    }
+    
+
+}
